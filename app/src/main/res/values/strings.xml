@@ -1,0 +1,117 @@
+<resources>
+    <string name="app_name">ContiGo</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Meet New People?</string>
+    <string name="slide_1_desc">The <b>easiest</b> and the <b>fastest</b> way to share your profile contact with people!</string>
+
+    <string name="slide_2_title">3-Step Process</string>
+    <string name="slide_2_desc">Simply <b>Find.Connect.Send</b> thats it and your are done!</string>
+
+    <string name="slide_3_title">Visiting Cards</string>
+    <string name="slide_3_desc">Share your visiting card with your contact where people can actually save it!</string>
+
+    <string name="slide_4_title">Work &amp; Home</string>
+    <string name="slide_4_desc">Manage two profiles one for your <b>Personal</b> contacts and other for <b>Work</b>!</string>
+
+    <string name="slide_5_title">Let\'s ContiGo</string>
+    <string name="slide_5_desc">Let\'s begin with the new world of possibilities!</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+    <string name="btn_begin">Begin Now</string>
+    <string name="pick_image_intent_text">Add New Image</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable News Updates</string>
+    <string name="pref_description_social_recommendations">Get latest news updates from ContiGo Team.
+    </string>
+
+    <string name="pref_title_display_name">Hotspot name</string>
+    <string name="pref_default_display_name">ContiGo</string>
+
+    <string name="pref_title_add_friends_to_messages">Save Received Contacts To</string>
+    <string-array name="pref_example_list_titles">
+        <item>Phone</item>
+        <item>Sim</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Contacts Sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>1</item>
+        <item>0</item>
+
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+    <string name="action_history">History</string>
+
+
+    <string name="pref_title_new_message_notifications">Play Sound on Receive/Send</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="powered_by">Powered By <b>Trumpets.</b></string>
+    <string name="title_activity_history">History</string>
+    <string name="title_activity_about">About ContiGo</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="action_edit">Edit</string>
+    <string name="title_activity_editprofile">Edit Profile</string>
+    <string name="action_done">Done</string>
+    <string name="title_activity_sender"></string>
+    <string name="title_activity_receiver" >Waiting For Sender</string>
+    <string name="btn_back">Go Back</string>
+    <string name="no_contacts">No contacts have been\n received yet.</string>
+    <string name="share">Begin Sharing!</string>
+    <string name="action_contact">View In Contacts</string>
+    <string name="action_clear">Clear History</string>
+    <string name="pref_sync_contact_toggle">Sync Contacts To Google Account</string>
+    <string name="pref_title_sync_contact">Google Account</string>
+    <string name="please_turn_on_gps">Please Turn On Location Services</string>
+    <string name="slide_6_title">Sync Contacts</string>
+    <string name="slide_6_desc">Received contacts directly synced to <b>Google</b> account.</string>
+</resources>

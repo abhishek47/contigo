@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:contigo="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/icon"
+        android:src="@drawable/ic_menu_send"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/content_text"
+            android:text="9922367414"
+            android:textSize="16sp"
+            android:textColor="@android:color/background_dark"
+            android:paddingLeft="20dp"
+            android:paddingStart="20dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/type_text"
+            android:text="Mobile"
+            android:layout_marginTop="3dp"
+            android:textSize="14sp"
+            android:textColor="@android:color/darker_gray"
+            android:paddingLeft="20dp"
+            android:paddingStart="20dp"
+            android:layout_marginBottom="8dp"/>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

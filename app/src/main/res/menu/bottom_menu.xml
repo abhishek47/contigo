@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_profile"
+        android:icon="@mipmap/network"
+        android:title="Share My Profile" />
+    <item
+        android:id="@+id/menu_contact"
+        android:icon="@drawable/contacts"
+        android:title="Select Contact from Phonebook" />
+
+</menu>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#004B91</color>
+    <color name="colorPrimaryDark">#003f79</color>
+    <color name="colorAccent">#288494</color>
+    <color name="white">#ffffff</color>
+
+    <!-- Screens background color-->
+    <color name="bg_screen1">#e63b4f</color>
+    <color name="bg_screen2">#20d2bb</color>
+    <color name="bg_screen3">#3395ff</color>
+    <color name="bg_screen4">#bb54ff</color>
+    <color name="bg_screen5">#004B91</color>
+    <color name="bg_screen6">#4CAF50</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#d1395c</color>
+    <color name="dot_dark_screen2">#14a895</color>
+    <color name="dot_dark_screen3">#2278d4</color>
+    <color name="dot_dark_screen4">#a854d4</color>
+    <color name="dot_dark_screen5">#003f79</color>
+    <color name="dot_dark_screen6">#317334</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#f98da5</color>
+    <color name="dot_light_screen2">#8cf9eb</color>
+    <color name="dot_light_screen3">#93c6fd</color>
+    <color name="dot_light_screen4">#e4b5fc</color>
+    <color name="dot_light_screen5">#929af9</color>
+    <color name="dot_light_screen6">#99f29d</color>
+    <color name="seperator">#e3e3e3</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+        <item>@color/dot_light_screen6</item>
+        <item>@color/dot_light_screen5</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+        <item>@color/dot_dark_screen6</item>
+        <item>@color/dot_dark_screen5</item>
+    </array>
+
+    <color name="colorRipple">#bfbff7</color>
+    <color name="black_alpha">#2D2F3B</color>
+    <color name="color_sender">#0F5BFF</color>
+    <color name="sender_desc">#8AAFFF</color>
+    <color name="recv_desc">#C08DFF</color>
+    <color name="receiver_status">#FFA634FF</color>
+    <color name="sender_ripple">#4982FF</color>
+    <color name="dialog_header">#FF4081</color>
+    <color name="dialog_header_green">#4CAF50</color>
+    <color name="dialog_header_orange">#FF9800</color>
+    <color name="floating_btn">#424242</color>
+    <color name="background_dark">#263238</color>
+    <color name="background_light">#ffffff</color>
+</resources>

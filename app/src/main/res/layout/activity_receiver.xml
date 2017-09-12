@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:theme="@style/AppTheme.NoActionBar"
+    android:id="@+id/activity_receiver"
+    android:background="@drawable/receiver_back"
+    tools:context="com.contigo.app.ReceiverActivity"
+    android:weightSum="1">
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_height="340dp">
+
+
+        <com.skyfishjy.library.RippleBackground
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/content"
+            app:rb_color="#B564FF"
+            app:rb_radius="32dp"
+            app:rb_rippleAmount="6"
+            app:rb_duration="5000"
+            app:rb_scale="6">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_centerInParent="true"
+                android:orientation="vertical"
+                android:id="@+id/linearLayout">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+
+                    android:id="@+id/profile_image"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_width="128dp"
+                    android:layout_gravity="center"
+                    android:layout_height="128dp"
+                    android:src="@drawable/profile"
+                    app:civ_border_width="2dp"
+                    app:civ_border_color="#C0C0C0"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="ssid"
+                    android:id="@+id/ssid"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"/>
+
+
+
+            </LinearLayout>
+
+        </com.skyfishjy.library.RippleBackground>
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:text="Waiting For Sender"
+        android:layout_above="@+id/textView3"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+
+    <TextView
+        android:layout_width="220dp"
+        android:layout_marginTop="25dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:text="On Sender side click send and tap on your name to share contact"
+        android:textColor="@color/recv_desc"
+        android:textSize="17sp"
+        android:id="@+id/textView3"
+        android:layout_above="@+id/btn_back"
+        android:layout_marginBottom="35dp"
+        android:layout_centerHorizontal="true" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/black_button"
+        android:text="Go Back"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/btn_back"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_margin="30dp"/>
+
+
+
+</RelativeLayout>

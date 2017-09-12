@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@mipmap/network"
+            android:checked="true"
+            android:title="Share" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@mipmap/user"
+            android:checkable="false"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@mipmap/settings"
+            android:checkable="false"
+            android:title="Settings" />
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@mipmap/search"
+            android:checkable="false"
+            android:title="My Contacts" />
+    </group>
+
+
+    <item android:title="Company">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_like"
+                    android:icon="@mipmap/favorite"
+                    android:checkable="false"
+                    android:title="Rate Us" />
+                <item
+                    android:id="@+id/nav_about"
+                    android:icon="@mipmap/help"
+                    android:checkable="false"
+                    android:title="About" />
+            </group>
+        </menu>
+    </item>
+
+
+</menu>
+
